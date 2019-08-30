@@ -1,0 +1,1 @@
+class DbProperties(val name: String, val host: String, val port: Int, username: String, password: String)

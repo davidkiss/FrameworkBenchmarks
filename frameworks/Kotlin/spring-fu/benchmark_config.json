@@ -1,0 +1,28 @@
+{
+  "framework": "spring-fu",
+  "tests": [
+    {
+      "default": {
+        "db_url": "/db",
+        "query_url": "/queries?queries=",
+        "fortune_url": "/fortunes",
+        "update_url": "/updates?queries=",
+        "port": 8080,
+        "approach": "Realistic",
+        "classification": "Fullstack",
+        "database": "Postgres",
+        "framework": "spring",
+        "language": "Kotlin",
+        "flavor": "None",
+        "orm": "Micro",
+        "platform": "Netty",
+        "webserver": "None",
+        "os": "Linux",
+        "database_os": "Linux",
+        "display_name": "spring-fu",
+        "notes": "",
+        "versus": "spring"
+      }
+    }
+  ]
+}
