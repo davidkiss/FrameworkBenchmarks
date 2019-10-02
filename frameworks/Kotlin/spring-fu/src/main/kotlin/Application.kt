@@ -4,7 +4,6 @@ import org.springframework.fu.kofu.application
 
 @FlowPreview
 val app = application(WebApplicationType.REACTIVE) {
-    configurationProperties<DbProperties>(prefix = "database")
     enable(dataConfig)
     enable(webConfig)
 }
